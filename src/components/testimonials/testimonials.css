@@ -1,0 +1,60 @@
+.testi-container{
+    width: 768px;
+}
+
+.testi-card{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-3);
+}
+
+.testi-img{
+    width: 60px;
+    border-radius: 3rem;
+    margin-bottom: var(--mb-3);
+}
+
+.testi-name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-25);
+}
+
+.testi-descreption{
+    font-size: var(--small-font-size);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--title-color) !important;
+}
+
+
+/* ============= Responsiveness ============== */
+
+@media screen and (max-width:992px) {
+    .testi-container{
+        width: initial;
+    }
+
+    .testi-card{
+        padding: 1.25rem 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    
+  }
+  
+  @media screen and (max-width:576px) {
+  
+  }
+  
+  @media screen and (max-width:350px) {
+    
+  }
